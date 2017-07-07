@@ -19,7 +19,7 @@ void House::Draw(Map *p, int dist1, int dist2)
     int i,j;
     for(i=0; i<hight; i++)
         for(j=0; j<width; j++)
-            p->drawPoint(dist2+j,dist1+i);
+            p->drawPoint(dist2+j,dist1+i,1);
 
 
 
