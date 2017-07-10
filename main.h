@@ -10,6 +10,8 @@
 using namespace std;
 
 
+
+
 class Position{
 public:
     float latitude;
@@ -23,8 +25,8 @@ public:
 };
 
 class Map{
-    int *p;
-    int x_max,y_max;
+    float *p;
+    float x_max,y_max;
     float lat1;
     float lat2;
     float longt1;
@@ -39,15 +41,17 @@ public:
 };
 
 
+ and this and this , too gis
+ someone see that it responsibli to crouch
 
 
 class House{
     public:
-    int hight;
-    int width;
-    int num_corners;
+    float hight;
+    float width;
+    float num_corners;
     Position p[4];
-    int h;
+    floath;
 public:
     void setHight(int t_hight);
     void setWidth(int t_width);

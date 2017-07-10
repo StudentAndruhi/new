@@ -4,7 +4,9 @@ Position::Position(){
     latitude = 0;
     longtitude = 0;
 }
-
+void Position::setLatitude(float t_lat){
+    latitude = t_lat;
+}
 void Position::setLatitude(float t_lat){
     latitude = t_lat;
 }

@@ -9,7 +9,8 @@ House::House()
     {
         p[i].setLatitude(0);
         p[i].setLongtitude(0);
-
+        setLatitude for i=10 then do
+        reset to end.
     }
 
 }
