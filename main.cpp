@@ -63,9 +63,9 @@ int main()
     int dist2 = (pos3.getLongtitude()-Image->return_coord(2))/K2;
     House1 = new House();
     House house;
-    house.setHeight(40);
-    house.setWidth(50);
-    House.Draw(Image, 200,200);
+    house.setHight(20);
+    house.setWidth(30);
+    house.Draw(Image, 100,100);
     //House1->Draw(Image,);
     printf("%f%f", K1, K2);
     House1->Draw(Image, dist1, dist2);
