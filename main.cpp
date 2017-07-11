@@ -36,7 +36,6 @@ int main()
     Map *Image;
     Image = new Map(parametrs[0], parametrs[1]);
     House *House1;
-    House1 = new House();
     Image->assosiate(parametrs[2], parametrs[3], parametrs[4], parametrs[5]);
     Position pos1;
     Position pos2;
@@ -62,6 +61,11 @@ int main()
     House1->setWidth(Hwidth);
     int dist1 = (pos3.getLatitude()-Image->return_coord(1))/K1;
     int dist2 = (pos3.getLongtitude()-Image->return_coord(2))/K2;
+    House1 = new House();
+    House house;
+    house.setHeight(40);
+    house.setWidth(50);
+    House.Draw(Image, 200,200);
     //House1->Draw(Image,);
     printf("%f%f", K1, K2);
     House1->Draw(Image, dist1, dist2);

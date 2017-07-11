@@ -1,5 +1,49 @@
 # depslib dependency file v1.0
-1499413734 source:c:\users\batyr_000\documents\github\gitpro\house.cpp
+1498689983 source:c:\users\Админ\desktop\Учёба\Проекты\project2\main.cpp
+	"main.h"
+
+1498690546 source:c:\users\Админ\desktop\Учёба\Проекты\project2\house.cpp
+	"main.h"
+
+1498688423 c:\users\Админ\desktop\Учёба\Проекты\project2\main.h
+	<iostream>
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<malloc.h>
+	<string.h>
+	<vector>
+	<fstream>
+
+1498688371 source:c:\users\Админ\desktop\Учёба\Проекты\project2\position.cpp
+	"main.h"
+
+1498688585 source:c:\users\Админ\desktop\Учёба\Проекты\project2\map.cpp
+	"main.h"
+
+1498811064 source:c:\users\batyr_000\documents\мои доки\project2\main.cpp
+	"main.h"
+
+1498692024 c:\users\batyr_000\documents\мои доки\project2\main.h
+	<iostream>
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<malloc.h>
+	<string.h>
+	<vector>
+	<fstream>
+
+1498692186 source:c:\users\batyr_000\documents\мои доки\project2\map.cpp
+	"main.h"
+
+1498691972 source:c:\users\batyr_000\documents\мои доки\project2\position.cpp
+	"main.h"
+
+1499413678 source:c:\users\batyr_000\documents\мои доки\project2\house.cpp
+	"main.h"
+
+1499413678 source:c:\users\batyr_000\documents\github\gitpro\house.cpp
 	"main.h"
 
 1498692024 c:\users\batyr_000\documents\github\gitpro\main.h

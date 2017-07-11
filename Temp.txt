@@ -1,0 +1,32 @@
+int main()
+{
+    setlocale(LC_ALL, "");
+    int k =1;
+    string s;
+    std::vector<string> coord;
+    char *tmp;
+    std::ifstream file("test.txt");
+    string line;
+
+  if (file.is_open())
+  {
+    while ( file.good() )
+    {
+      getline (file,line);
+      coord.push_back(line);
+    }
+    file.close();
+  }
+  else cout << "Unable to open file";
+  char*str = coord[0];
+    char* pch = strtok (str," ");
+    while (pch != NULL)
+    {
+      std::cout << pch  << "n";
+      pch = strtok (NULL, " ");
+    }
+
+
+    return 0;
+
+}
