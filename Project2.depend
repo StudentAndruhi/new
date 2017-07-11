@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1499413734 source:c:\users\batyr_000\documents\github\gitpro\house.cpp
+	"main.h"
+
+1498692024 c:\users\batyr_000\documents\github\gitpro\main.h
+	<iostream>
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<malloc.h>
+	<string.h>
+	<vector>
+	<fstream>
+
+1498811064 source:c:\users\batyr_000\documents\github\gitpro\main.cpp
+	"main.h"
+
+1498692186 source:c:\users\batyr_000\documents\github\gitpro\map.cpp
+	"main.h"
+
+1498691972 source:c:\users\batyr_000\documents\github\gitpro\position.cpp
+	"main.h"
+
