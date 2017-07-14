@@ -65,4 +65,20 @@ float Map::return_coord(int t){
         return longt2;
         break;
     }
+        void Map::load( char *fname){
+FILE *fp;
+fp=fopen(fname,"r");
+if(fp==NULL){
+printf("Cant open file");
+exit(1);
+}
+char buf[100];
+    (for int k=0; k<10; k++)
+        fscaf(fp,"%c", &buf);
+    int i,j;
+    for(i=0;i<y_max;i++){
+        for(j=0;j<x_max;j++)
+            fscanf(fp,"%d", *(p+i*x_max+j));
+}
+}
 }

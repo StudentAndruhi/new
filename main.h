@@ -35,6 +35,7 @@ public:
     void assosiate(float t_lat1, float t_longt1, float t_lat2, float t_longt2);
     void show();
     void save(char *fname);
+    void Load(char *fname);
     float return_coord(int t);
 };
 
